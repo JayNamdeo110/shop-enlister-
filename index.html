@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Shop Enlister</title>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-brand">MyWebsite</div>
+        <ul class="navbar-menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#search">Search</a></li>
+            <li><a href="#trending">Trending</a></li>
+            <li><a href="#offers">Offers</a></li>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#login">Login/Signup</a></li>
+        </ul>
+        <div class="navbar-toggle" id="navbar-toggle">
+            &#9776;
+        </div>
+    </nav>
+
+    <!-- Header with Search Form -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="header-title">Discover the Best Shops in the City</h1>
+                <p class="header-subtitle">
+                    Find the perfect shop for all your needs, from restaurants to electronics and more.
+                </p>
+                <form class="search-form">
+                    <div class="search-icon">&#128269;</div>
+                    <input type="search" placeholder="Search by category or location" class="search-input">
+                    <button class="search-button">Search</button>
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="main-section">
+        <section class="category-section">
+            <h2 class="section-title">Shop by Category</h2>
+            <div class="category-grid">
+                <a href="#" class="category-card">
+                    <img src="/placeholder.svg" alt="Restaurants" class="category-image">
+                    <div class="category-info">
+                        <h3>Restaurants</h3>
+                    </div>
+                </a>
+                <a href="#" class="category-card">
+                    <img src="/placeholder.svg" alt="Clothing" class="category-image">
+                    <div class="category-info">
+                        <h3>Clothing</h3>
+                    </div>
+                </a>
+                <!-- Add more category cards as needed -->
+            </div>
+        </section>
+
+        <section class="featured-shops">
+            <h2 class="section-title">Featured Shops</h2>
+            <div class="horizontal-scroll">
+                <a href="#" class="shop-card">
+                    <img src="/placeholder.svg" alt="Shop Name" class="shop-image">
+                    <div class="shop-info">
+                        <h3>Acme Clothing</h3>
+                        <p>Discover the latest fashion trends at Acme Clothing, your one-stop shop for stylish and affordable apparel.</p>
+                    </div>
+                </a>
+                <a href="#" class="shop-card">
+                    <img src="/placeholder.svg" alt="Shop Name" class="shop-image">
+                    <div class="shop-info">
+                        <h3>Gourmet Delights</h3>
+                        <p>Indulge in a culinary adventure at Gourmet Delights, where the finest ingredients come together to create mouthwatering dishes.</p>
+                    </div>
+                </a>
+                <!-- Add more shop cards as needed -->
+            </div>
+        </section>
+
+        <section class="discounts-offers">
+            <h2 class="section-title">Discounts & Offers</h2>
+            <div class="offers-slider">
+                <div class="offer-card">
+                    <div class="offer-images">
+                        <img src="/placeholder.svg" alt="Discount" class="offer-image active">
+                        <img src="/placeholder.svg" alt="Discount" class="offer-image">
+                        <!-- Add more images if needed -->
+                    </div>
+                    <div class="offer-info">
+                        <h3>20% Off at Acme Clothing</h3>
+                        <p>Get 20% off on all items at Acme Clothing. Use code: ACME20 at checkout.</p>
+                    </div>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-images">
+                        <img src="/placeholder.svg" alt="Discount" class="offer-image active">
+                        <img src="/placeholder.svg" alt="Discount" class="offer-image">
+                        <!-- Add more images if needed -->
+                    </div>
+                    <div class="offer-info">
+                        <h3>Buy 1 Get 1 Free at Gourmet Delights</h3>
+                        <p>Buy one meal and get another free at Gourmet Delights. Limited time offer!</p>
+                    </div>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-images">
+                        <img src="/placeholder.svg" alt="Discount" class="offer-image active">
+                        <img src="/placeholder.svg" alt="Discount" class="offer-image">
+                        <!-- Add more images if needed -->
+                    </div>
+                    <div class="offer-info">
+                        <h3>3rd one good offer</h3>
+                        <p>Buy two shirt and get 15% off at Gourmet Delights. Limited time offer!</p>
+                    </div>
+                </div>
+                <div class="offer-card">
+                    <div class="offer-images">
+                        <img src="/placeholder.svg" alt="Discount" class="offer-image active">
+                        <img src="/placeholder.svg" alt="Discount" class="offer-image">
+                        <!-- Add more images if needed -->
+                    </div>
+                    <div class="offer-info">
+                        <h3>4th offer really good one</h3>
+                        <p>Buy one meal and get another free at Gourmet Delights. Limited time offer!</p>
+                    </div>
+                </div>
+                <!-- Add more offer cards as needed -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <svg class="footer-icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+                    <span class="footer-text">City Shops</span>
+                </div>
+                <nav class="footer-nav">
+                    <a href="#" class="footer-link">About</a>
+                    <a href="#" class="footer-link">Explore</a>
+                    <a href="#" class="footer-link">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
